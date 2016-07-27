@@ -4,7 +4,6 @@ UDEVLIBDIR=/lib/udev
 DRACUTLIBDIR=/lib/dracut
 INSTALL=install
 CFLAGS+=-std=gnu99 -O2 -Wall -g -D_FILE_OFFSET_BITS=64 -I.
-LDFLAGS+=-static
 
 all: bcache probe-bcache
 
